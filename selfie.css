@@ -1,0 +1,293 @@
+/* COLOR SCHEME: Neutral Blue */
+body {
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    background-color: #193441;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 42pt;
+    line-height: 36pt;
+    font-weight: lighter;
+  }
+  
+  h2 {
+    margin: 0;
+    padding: 0 10px 5px;
+    font-size: 18pt;
+    line-height: 22pt;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  
+  h3 {
+    font-size: 24pt;
+    font-weight: lighter;
+    margin: 0;
+  }
+  
+  header {
+    color: #193441;
+    background-color: #91AA9D;
+    background-image: url(images/download.png);
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  
+  nav {
+    color: #193441;
+    background-color: #91AA9D;
+    box-shadow: 0 10px 5px -5px #3E606F;
+    position: relative;
+    padding: 5px 10px;
+    font-size: 14pt;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: #193441;
+    text-decoration: none;
+  }
+  
+  main {
+    color: #193441;
+    background-color: #FCFFF5;
+    padding: 10px;
+    z-index: 0;
+  }
+  
+  main a {
+    color: #193441;
+  }
+  
+  footer {
+    color: #193441;
+    background-color: #D1DBBD;/*changed from FCFFF5*/
+    padding: 5px 10px;
+    font-size: 10pt;
+    font-style: italic;
+  }
+  
+  footer a {
+    color: #193441;/*changed from D1DBBD*/
+  }
+  
+  .details {
+    color: #FCFFF5;
+    background-color: #3E606F;
+    float: right;
+    padding: 5px 10px;
+  }
+  
+  header,
+  section,
+  footer,
+  aside,
+  nav,
+  main,
+  article,
+  figure {
+    display: block;
+  }
+  
+  #wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  
+  header {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  footer {
+    border-radius: 0 0 10px 10px;
+  }
+  
+  /* Additional Styles */
+  
+  .experience h4 {
+    font-size: 18pt;
+    font-weight: lighter;
+    margin: 0;
+  }
+  
+  .experience.title {
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .experience.dates {
+    font-size: 12pt;
+    font-weight: bold;
+    float: right;
+  }
+  
+  .experience.description {
+    font-size: 11pt;
+  }
+  
+  .experience ul {
+    margin: 0;
+  }
+  
+  .experience {
+    border-left: 10px solid #193441;
+    border-top: 1px dashed #193441;
+    border-right: 1px dashed #193441;
+    border-bottom: 1px dashed #193441;
+    margin: 20px;
+    padding: 5px 10px;
+    overflow: auto;
+  }
+  
+  .school,
+  .experience {
+    float: left;
+    clear: both;
+    width: 100%;
+  }
+  
+  .school img {
+    float: right;
+    width: 250px;
+  }
+  
+  .school h3 {
+    margin: 0 0 0 120px;
+    font-size: 24pt;
+    font-weight: lighter;
+  }
+  
+  .school h4 {
+    font-size: 14pt;
+    font-weight: lighter;
+    margin: 0 0;
+  }
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+  .gallery {
+    text-align: center;
+  }
+  
+  .gallery figure {
+    display: inline-block;
+    margin: 10px 20px;
+    width: 150px;
+    vertical-align: middle;
+  }
+  
+  .gallery figure figcaption {
+    text-align: center;
+    font-size: 11pt;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+    color: #FCFFF5;
+  }
+  nav a:hover,
+  nav a {
+    transition: background-color 0.25s ease, color 0.25s ease;
+    padding: 5px;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    #wrapper {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (max-width: 600px)
+  {
+    nav ul 
+    {
+      text-align: center;
+    }
+    
+    nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  .gallery img:hover {
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 5px 5px 10px #8E001C; 
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  
+  .gallery img {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  
+  main table {
+    border: 1px solid #193441; 
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  
+  main td, main th {
+    border: 1px solid #3E606F; 
+    padding: 5px;
+  }
+  
+  main th {
+    color: #FCFFF5; 
+    background-color: #3E606F; 
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea,
+  select {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 600px) {
+    label {
+      display: none;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    select {
+      width: 100%;
+    }
+    
+    input[type="text"]::placeholder,
+    input[type="email"]::placeholder,
+    input[type="tel"]::placeholder,
+    textarea::placeholder,
+    select::placeholder {
+      color: #999999;
+    }
+  }
+  
